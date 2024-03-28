@@ -1,12 +1,9 @@
-import { useState } from 'react'
 import './App.css'
+import TasksPage from "./containers/TasksPage";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    </>
+    <TasksPage/>
   )
 }
 
